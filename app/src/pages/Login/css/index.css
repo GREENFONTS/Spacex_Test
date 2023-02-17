@@ -1,0 +1,129 @@
+.main {
+  width: 100%;
+  background-color: #fef0f2;
+  display: flex;
+  height: 100vh;
+}
+.left_section {
+  width: 43%;
+  background-color: #ffffff;
+  padding: 44px 50px 0px 80px;
+  flex-direction: column;
+  gap: 16px;
+}
+.welcome {
+  flex-direction: column;
+  gap: 0px;
+  width: 482px;
+}
+.welcome > h3 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  color: #1a1a1a;
+}
+
+.welcome > p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.30000001192092896px;
+  color: #595959;
+}
+
+.stacks {
+  margin-top: 64px;
+  gap: 40px;
+  flex-direction: column;
+  display: flex;
+}
+.stacks .item:nth-child(3) {
+  background-color: #f8f8f6;
+  border-radius: 20px;
+  padding: 8px;
+}
+
+.item {
+  display: flex;
+  gap: 20px;
+  width: 436px;
+}
+.mark {
+  display: none;
+}
+.stacks .item:nth-child(3) .mark {
+  padding: 0px 8px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: inherit;
+}
+
+.inner_stack {
+  gap: 4px;
+}
+.inner_stack > h5 {
+  margin: 0px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: -0.3px;
+
+  color: #858585;
+}
+
+.inner_stack > p {
+  margin: 0px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  color: #a3a3a3;
+}
+
+.right_section {
+  display: flex;
+  width: 100%;
+}
+
+.login_card {
+  width: 77%;
+  margin: auto;
+  padding: 40px 64px;
+  gap: 10px;
+  height: 547px;
+  box-shadow: 0px 4px 25px rgba(102, 102, 102, 0.2);
+  border-radius: 12px;
+  background-color: #fff;
+}
+.login_card > div {
+  gap: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card_content {
+  gap: 48px;
+  display: flex;
+  flex-direction: column;
+}
+.card_header {
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.card_header > h5 {
+  font-weight: 600;
+  margin: 0px;
+  font-size: 24px;
+  line-height: 37px;
+  letter-spacing: -0.2px;
+  color: #1a1a1a;
+}
+.card_header > p {
+  margin: 0px;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0.3px;
+  color: #858585;
+}
