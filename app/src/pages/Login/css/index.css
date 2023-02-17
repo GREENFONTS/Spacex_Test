@@ -97,7 +97,7 @@
   background-color: #fff;
 }
 .login_card > div {
-  gap: 60px;
+  gap: 50px;
   display: flex;
   flex-direction: column;
 }
@@ -126,4 +126,52 @@
   line-height: 25px;
   letter-spacing: 0.3px;
   color: #858585;
+}
+.form {
+  gap: 26px;
+  display: flex;
+  flex-direction: column;
+}
+.formcontrol {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.formcontrol > label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: -0.3px;
+  color: #1a1a1a;
+}
+
+.formcontrol > input {
+  padding: 20px 162px 20px 20px;
+  gap: 16px;
+  background: #ffffff;
+  border: 1px solid #1a1a1a;
+  border-radius: 8px;
+  height: 65px;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 25px rgba(102, 102, 102, 0.2);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0.3px;
+  color: #1a1a1a;
+}
+
+.submitbtn {
+  padding: 18px 186px;
+  gap: 10px;
+  height: 65px;
+  background: #1cc578;
+  border-radius: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: -0.3px;
+  color: #ffffff;
+  border: none;
 }

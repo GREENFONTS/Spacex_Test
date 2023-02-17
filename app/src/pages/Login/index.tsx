@@ -49,7 +49,29 @@ function Login() {
                 <h5>Login to your dashboard</h5>
                 <p>Provide details to login to your account </p>
               </div>
+              <div className="form">
+                <div className="formcontrol">
+                  <label>Email</label>
+                  <input
+                    type="email"
+                    placeholder="Cokitchen222@gmail.co"
+                    required
+                    name="email"
+                  />
+                </div>
+
+                <div className="formcontrol">
+                  <label>Password</label>
+                  <input
+                    type="password"
+                    placeholder="......"
+                    required
+                    name="password"
+                  />
+                </div>
+              </div>
             </div>
+            <button className="submitbtn">Login</button>
           </div>
         </div>
       </div>
