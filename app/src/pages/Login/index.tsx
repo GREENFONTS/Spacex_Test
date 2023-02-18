@@ -1,9 +1,5 @@
-import React from "react";
 import "./css/index.css";
-import Logo from "./assets/Logo.png";
-import Item1 from "./assets/Item1.png";
-import Item2 from "./assets/Item2.png";
-import Item3 from "./assets/Item3.png";
+import {Logo, Item1, Item2, Item3} from "./assets/"
 import ServiceComponent from "./components/services";
 
 function Login() {

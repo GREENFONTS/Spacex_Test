@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/index.css";
-import Checked from "../assets/Checked.svg";
+import { Checked } from "../assets/";
 
 interface IProps {
   title: string;
