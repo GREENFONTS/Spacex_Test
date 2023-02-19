@@ -175,3 +175,7 @@
   color: #ffffff;
   border: none;
 }
+
+.submitbtn:disabled{
+  opacity: 0.5;
+}

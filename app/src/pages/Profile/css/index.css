@@ -149,15 +149,7 @@
   opacity: 0.5;
 }
 
-@keyframes skeleton-loading {
-  0% {
-    background-color: hsl(200, 20%, 63%);
-  }
 
-  100% {
-    background-color: hsl(200, 20%, 93%);
-  }
-}
 .card_content {
   gap: 4px;
   display: flex;
@@ -230,4 +222,24 @@
   line-height: 25px;
   letter-spacing: 0.3px;
   color: #595959;
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 560px) {
+}
+
+@media screen and (min-width: 560px) and (max-width: 900px) {
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(200, 20%, 63%);
+  }
+
+  100% {
+    background-color: hsl(200, 20%, 93%);
+  }
 }
